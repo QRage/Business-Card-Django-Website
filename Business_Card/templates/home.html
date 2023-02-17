@@ -1,0 +1,48 @@
+{% load static %}
+<head>
+    <title>Serhii Nazarenko</title>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link href="{% static 'styles.css' %}" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel" />
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' />
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:100,600,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
+    <script src="https://use.fontawesome.com/34cd55089f.js"></script>
+</head>
+
+
+<header class = "title">
+     <div class ="card-container">
+      <div class = "instruction-wrap">
+        <p class = "instruction">click card to flip</p>
+          <div class ="card">
+            <div class = "front">
+                <div class = "underline">
+                 <p class = "name">Serhii Nazarenko</p>
+                </div>
+                <p class = "card-title">Python Developer</p>
+            </div>
+            <div class = "back">
+              <div class = "name-outline">
+                <p class = "backside">Chase your dream, like never before</p>
+              </div>
+              <div class = "contact-me">
+                <p class = "card-contact">contact me</p>
+              </div>
+              <div class = 'links'>
+                <a href="mailto:sergiobamper@gmail.com"><i class="fa fa-envelope fa-lg" ></i></a>
+                <a href="https://www.linkedin.com/in/serhii-nazarenko-dev/" target = "_blank" alt="LinkedIn"><i class="fa fa-linkedin-square fa-lg" ></i></a>
+              </div>
+            </div>
+          </div>
+         </div>
+    </div>
+
+</header>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="{% static 'scripts.js' %}" type="text/javascript"></script>
